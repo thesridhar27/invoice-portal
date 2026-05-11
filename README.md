@@ -28,7 +28,7 @@ Move the backend folder to your XAMPP htdocs directory (or keep it in the projec
 
 Start Apache and MySQL from the XAMPP Control Panel.
 
-Create a database named invoice_db and import the provided SQL schema (if available).
+Create a database named invoice_portal and import the provided SQL schema (if available).
 
 2. Frontend (React)
 Navigate to the frontend directory:
