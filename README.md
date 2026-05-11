@@ -20,8 +20,7 @@ Database: MySQL.
 State Management: React Context API (AuthContext).
 
 📂 Project Structure
-Plaintext
-    invoice-portal/
+invoice-portal/
 ├── frontend/           # React application
 │   ├── src/            # Components, Pages, Context
 │   ├── public/         # Static assets & generated CSS
