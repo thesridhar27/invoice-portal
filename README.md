@@ -19,7 +19,8 @@ Database: MySQL.
 
 State Management: React Context API (AuthContext).
 
-<img width="600" height="317" alt="image" src="https://github.com/user-attachments/assets/542e2219-9c39-4ab4-a96a-5e9395860493" />
+<img width="871" height="311" alt="image" src="https://github.com/user-attachments/assets/ae3a5645-521f-4225-82fe-acdd46891f5b" />
+
 
 
 ⚙️ Installation & Setup
