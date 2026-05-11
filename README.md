@@ -19,16 +19,8 @@ Database: MySQL.
 
 State Management: React Context API (AuthContext).
 
-📂 Project Structure
-invoice-portal/
-├── frontend/           # React application
-│   ├── src/            # Components, Pages, Context
-│   ├── public/         # Static assets & generated CSS
-│   └── tailwind.config.js
-├── backend/            # PHP API
-│   ├── config/         # Database connection
-│   └── api/            # Auth and Invoice logic
-└── README.md
+<img width="600" height="317" alt="image" src="https://github.com/user-attachments/assets/542e2219-9c39-4ab4-a96a-5e9395860493" />
+
 
 ⚙️ Installation & Setup
 1. Backend (XAMPP)
