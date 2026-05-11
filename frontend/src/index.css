@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Prevent Autofill Blue/Yellow Background Spill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #111827 !important; /* Forces dark text color */
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px transparent !important;
+}
+
+/* 2. Help React detect when the browser autofills the field */
+@keyframes onAutoFillStart { from {} to {} }
+@keyframes onAutoFillCancel { from {} to {} }
+
+input:-webkit-autofill {
+    animation-name: onAutoFillStart;
+}
+input:not(:-webkit-autofill) {
+    animation-name: onAutoFillCancel;
+}
+
+/* 3. Ensure inputs don't have default heights that break the grid */
+input {
+    line-height: 1.2 !important;
+}
